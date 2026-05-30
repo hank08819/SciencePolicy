@@ -21,10 +21,19 @@ Fig. 1 contains six panels:
 
 The main empirical contrast highlighted in the figure is the PubMedQA result: production-grade methods labeled `w4-g128 4-bit` produce a **14.6× spread** in per-query energy on the same model/hardware setting, from 2832 J for AWQ-4bit to 194 J for GPTQ-Marlin-4bit, compared with 565 J for the 16-bit baseline.
 
-```
 
 ## Citation
 
-If using or adapting this figure code, cite the accompanying manuscript:
+This code accompanies:
 
-> Han H., Liu X., Wang X., Han F., Ling Q. **Compressed AI is not automatically greener.** Manuscript, 2026.
+Han, H., Liu, X., Wang, X., Han, F., and Ling, Q. (2026). *Compressed AI is not automatically greener*. Manuscript.
+
+BibTeX:
+
+```bibtex
+@misc{han2026compressedai,
+  title  = {{Compressed AI is not automatically greener}},
+  author = {Han, Henry and Liu, Xiyang and Wang, Xiaodong and Han, Fei and Ling, Qinghua},
+  year   = {2026},
+  note   = {Manuscript}
+}
